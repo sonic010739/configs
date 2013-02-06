@@ -1,0 +1,43 @@
+[core]
+	editor = vim
+[user]
+	name = Sonic Hsieh
+	email = sonic_hsieh@fiberlogic.com
+[alias]
+	co = checkout
+	ci = commit
+	di = diff
+	st = status
+	br = branch
+	re = remote
+	di = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+[color]
+	ui = true
+	log = auto
+	branch = auto
+	status = auto
+	diff = auto
+[color "status"]
+	added = yellow bold
+	changed = green bold
+	untracked = black bold
+	branch = red bold
+
+[color "branch"]
+	current = green reverse
+ 	local = white
+	remote = yellow
+	
+[color "diff"]
+	meta = yellow bold
+ 	frag = magenta bold
+	old = red bold
+	new = green bold
+
+
+[github-import]
+	remote = origin
+[merge]
+	tool = vimdiff
